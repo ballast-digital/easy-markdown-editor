@@ -44,6 +44,7 @@
         "prepare": "gulp",
         "test": "npm run lint && npm run test:types",
         "lint": "gulp lint",
+        "build": "npm run gulp && cp dist/easymde.min.js ../blog/assets/ && cp dist/easymde.min.css ../blog/assets/",
         "test:types": "tsc --project types/tsconfig.json"
     }
 }
