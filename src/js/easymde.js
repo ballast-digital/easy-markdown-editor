@@ -1468,13 +1468,13 @@ var toolbarBuiltInButtons = {
         action: drawImage,
         className: 'fa fa-image',
         title: 'Insert Image',
-        default: true,
     },
     'upload-image': {
         name: 'upload-image',
         action: drawUploadedImage,
         className: 'fa fa-image',
         title: 'Import an image',
+        default: true,
     },
     'table': {
         name: 'table',
@@ -1515,7 +1515,6 @@ var toolbarBuiltInButtons = {
         noDisable: true,
         noMobile: true,
         title: 'Toggle Fullscreen',
-        default: true,
     },
     'separator-4': {
         name: 'separator-4',
